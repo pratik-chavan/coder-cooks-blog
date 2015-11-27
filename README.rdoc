@@ -1,1 +1,1 @@
-This is the Ruby On Rails application for Coder Cooks Blog.
+This is the Ruby On Rails application for Coder Cooks Blog. Coders/Cooks can post their delicious recipes and cool tech articles.
