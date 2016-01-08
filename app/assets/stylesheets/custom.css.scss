@@ -1,4 +1,4 @@
-$navbar-default-bg: #49ABCC;
+$navbar-default-bg: #000000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -13,4 +13,31 @@ $navbar-default-bg: #49ABCC;
   width: auto;
   height: 225px;
   max-height: 225px;
+}
+
+.row {
+  color: #000000;
+  
+  
+}
+
+.col-md-4 {
+  
+  text-align: center;
+}
+
+.col-md-3 {
+  
+  text-align: center;
+}
+
+hr {
+  border-width: 25px 20;
+  border-color: black
+  
+}
+
+.btn-lg {
+  
+  color: #ffffff !important;
 }
