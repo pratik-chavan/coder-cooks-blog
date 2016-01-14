@@ -5,3 +5,5 @@ Rails Version: 4.2.4
 Dependancy gems: bcrypt (password encryption and authentication), will_paginate (pagination), bootstrap-will_paginate, byebug (dev only), bootstrap-sass, sass-rails
 
 GitHub link: https://github.com/pratik-chavan/coder-cooks-blog
+
+Demo link: https://coder-cooks.herokuapp.com
