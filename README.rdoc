@@ -1,2 +1,7 @@
-This is the Ruby On Rails application for Coder Cooks Blog. Coders/Cooks can post their delicious recipes and cool tech articles. Users can add
-friends and view their articles.
+This blog is a prototype for a typical blog website. Developed in Ruby On Rails. Deployed on Heroku.
+Ruby Version: 2.2.1
+Rails Version: 4.2.4
+
+Dependancy gems: bcrypt (password encryption and authentication), will_paginate (pagination), bootstrap-will_paginate, byebug (dev only), bootstrap-sass, sass-rails
+
+GitHub link: https://github.com/pratik-chavan/coder-cooks-blog
