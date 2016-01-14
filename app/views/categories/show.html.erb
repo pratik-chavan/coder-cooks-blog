@@ -1,9 +1,14 @@
-<p id="notice"><%= notice %></p>
+<h1 align="center"><%= "Category: " + @category.name %></h1>
+<div align="center">
+  <% if logged_in? and current_user.admin? %>
+    <div class="row">
+      <span class="badge"><%= link_to "Edit Category Name", edit_category_path(@category) %></span>
+    </div>
+  <% end %>
+  <%= will_paginate @category_articles %>
+</div>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
-
-<%= link_to 'Edit', edit_category_path(@category) %> |
-<%= link_to 'Back', categories_path %>
+<%= render 'articles/article', obj: @category_articles %>
+<div align="center">
+  <%= will_paginate @category_articles %>
+</div>
